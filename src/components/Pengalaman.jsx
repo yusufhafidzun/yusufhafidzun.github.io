@@ -33,9 +33,9 @@ const Pengalaman = ({ darkMode }) => {
             {/* Pengalaman item 1 */}
             <div className="relative pl-10 md:pl-0">
               <div className="flex flex-col md:flex-row">
-                <div className="md:w-1/2 md:pr-8 md:text-right mb-4 md:mb-0 sm:ml-5">
+                <div className="md:w-1/2 md:pr-8 md:text-right ml-5 mb-4">
                   <h3
-                    className={`text-xl font-bold mb-1 ${
+                    className={`text-xl font-bold ${
                       darkMode ? "text-white" : "text-gray-900"
                     }`}
                   >
@@ -50,7 +50,7 @@ const Pengalaman = ({ darkMode }) => {
                     2022-2024
                   </p>
                 </div>
-                <div className="sm:flex items-center justify-center w-6 h-6 rounded-full bg-purple-500 absolute  sm:left-8 sm:my-4 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-0.5">
+                <div className="flex items-center justify-center w-6 h-6 rounded-full bg-purple-500 absolute left-8 my-4 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-0.5">
                   <div className="w-2 h-2 rounded-full bg-white"></div>
                 </div>
                 <div className="md:w-1/2 md:pl-8">
@@ -95,7 +95,7 @@ const Pengalaman = ({ darkMode }) => {
                     25 Jan. - 24 Apr. 2024
                   </p>
                 </div>
-                <div className="sm:flex items-center justify-center w-6 h-6 rounded-full bg-purple-500 absolute  sm:left-8 sm:my-4 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-0.5">
+                <div className="flex items-center justify-center w-6 h-6 rounded-full bg-purple-500 absolute left-8 my-4 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-0.5">
                   <div className="w-2 h-2 rounded-full bg-white"></div>
                 </div>
                 <div className="md:w-1/2 md:pl-8">
